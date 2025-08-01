@@ -1,10 +1,3 @@
-//
-//  ToDoListView.swift
-//  ToDo
-//
-//  Created by Aiaulym Abduohapova on 19.08.2025.
-//
-
 import SwiftUI
 
 class ToDoListViewModel: ToDoListViewProtocol, ObservableObject {

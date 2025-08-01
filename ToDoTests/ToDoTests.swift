@@ -1,10 +1,3 @@
-//
-//  ToDoTests.swift
-//  ToDoTests
-//
-//  Created by Aiaulym Abduohapova on 19.08.2025.
-//
-
 import XCTest
 import CoreData
 import Combine

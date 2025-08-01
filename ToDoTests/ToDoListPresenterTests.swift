@@ -1,10 +1,3 @@
-//
-//  ToDoListPresenterTests.swift
-//  ToDoTests
-//
-//  Created by Aiaulym Abduohapova on 19.08.2025.
-//
-
 import XCTest
 @testable import ToDo
 
