@@ -44,7 +44,7 @@ struct ToDoAPIModel: Codable {
         return ToDoEntity(
             id: "\(id)",
             title: todo,
-            description: todo,
+            description: "Description for: \(todo)",
             createdDate: Date(),
             isCompleted: completed,
             userId: userId

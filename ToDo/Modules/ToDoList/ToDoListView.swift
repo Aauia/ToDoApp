@@ -138,7 +138,7 @@ struct ToDoListView: View {
                     }) {
                         Image(systemName: "plus")
                             .font(.title2)
-                            .foregroundColor(.blue)
+                            .foregroundColor(.yellow)
                     }
                 }
             }
@@ -194,7 +194,7 @@ struct SearchBar: View {
                     text = ""
                     onSearchTextChanged("")
                 }
-                .foregroundColor(.blue)
+                .foregroundColor(.yellow)
             }
         }
         .padding(.vertical, 8)
@@ -292,12 +292,10 @@ struct ToDoDetailView: View {
                         .foregroundColor(.white)
                         .multilineTextAlignment(.leading)
                     
-                    if !todo.description.isEmpty && todo.description != todo.title {
-                        Text(todo.description)
-                            .font(.system(size: 16))
-                            .foregroundColor(.secondary)
-                            .multilineTextAlignment(.leading)
-                    }
+                    Text(todo.description)
+                        .font(.system(size: 16))
+                        .foregroundColor(.secondary)
+                        .multilineTextAlignment(.leading)
                     
                     HStack {
                         Text(formatDate(todo.createdDate))
@@ -321,30 +319,11 @@ struct ToDoDetailView: View {
                         HStack {
                             Text("Редактировать")
                                 .font(.system(size: 17))
-                                .foregroundColor(.primary)
+                                .foregroundColor(.yellow)
                             Spacer()
                             Image(systemName: "square.and.pencil")
                                 .font(.system(size: 17))
-                                .foregroundColor(.secondary)
-                        }
-                        .padding()
-                        .background(Color(.systemGray5))
-                    }
-                    
-                    Divider()
-                        .background(Color(.systemGray4))
-                    
-                    Button(action: {
-                        // Share action
-                    }) {
-                        HStack {
-                            Text("Поделиться")
-                                .font(.system(size: 17))
-                                .foregroundColor(.primary)
-                            Spacer()
-                            Image(systemName: "square.and.arrow.up")
-                                .font(.system(size: 17))
-                                .foregroundColor(.secondary)
+                                .foregroundColor(.yellow)
                         }
                         .padding()
                         .background(Color(.systemGray5))

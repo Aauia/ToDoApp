@@ -45,7 +45,7 @@ ToDo/
 4. ✅ **Core Data**: Persistent storage with proper data restoration
 5. ✅ **Version Control**: Git-ready project structure
 6. ✅ **Unit Tests**: Comprehensive test coverage
-7. ✅ **Xcode 15 Compatibility**: Modern SwiftUI and iOS 18.5 target
+7. ✅ **Xcode 15 Compatibility**: Modern SwiftUI and iOS 17.0 target
 8. ✅ **VIPER Architecture**: Clean separation of concerns
 
 ## Technical Implementation
@@ -67,7 +67,7 @@ ToDo/
 
 ## Getting Started
 
-1. Open `ToDo.xcodeproj` in Xcode 15+
+1. Open `ToDo.xcodeproj` in Xcode 15
 2. Build and run the project
 3. The app will automatically fetch initial todos from the API
 4. Start adding, editing, and managing your todos!

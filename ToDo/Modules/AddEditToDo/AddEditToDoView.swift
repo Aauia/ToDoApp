@@ -92,6 +92,7 @@ struct AddEditToDoView: View {
                     Button("Назад") {
                         viewModel.presenter.cancelEditing()
                     }
+                    .foregroundColor(.yellow)
                     .disabled(viewModel.isLoading)
                 }
                 
@@ -102,6 +103,7 @@ struct AddEditToDoView: View {
                             description: viewModel.description
                         )
                     }
+                    .foregroundColor(.yellow)
                     .disabled(viewModel.isLoading || viewModel.title.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
                 }
             }
